@@ -1,8 +1,8 @@
 apiVersion: appconnect.ibm.com/v1beta1
 kind: Dashboard
 metadata:
-  name: db-01-quickstart
-  namespace: test
+  name: ipt-ace-dashboard
+  namespace: ipt
 spec:
   api:
     enabled: true
