@@ -1,5 +1,5 @@
 resources:
   - cs-platform-navigator.yaml
-  - cs-foundational-services.yaml
-  - cs-appconnect-operator.yaml
+#  - cs-foundational-services.yaml
+#  - cs-appconnect-operator.yaml
 namespace: int
