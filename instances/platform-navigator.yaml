@@ -1,0 +1,15 @@
+apiVersion: integration.ibm.com/v1beta1
+kind: PlatformNavigator
+metadata:
+  name: platformui-ipt
+  namespace: ipt
+  labels:
+    backup.integration.ibm.com/component: platformnavigator     
+  annotations:
+    argocd.argoproj.io/sync-wave: "6"   
+spec:
+  license:
+    accept: true
+    license: L-JTPV-KYG8TF
+  replicas: 1
+  version: 16.1.0

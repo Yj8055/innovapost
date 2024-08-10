@@ -1,3 +1,4 @@
 resources:
+  - platform-navigator.yaml
   - appconnect-dashboard.yaml
 namespace: ipt
