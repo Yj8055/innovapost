@@ -2,4 +2,4 @@ resources:
   - sub-platform-navigator.yaml
   - sub-foundational-services.yaml
   - sub-appconnect-operator.yaml
-namespace: int
+namespace: ipt
