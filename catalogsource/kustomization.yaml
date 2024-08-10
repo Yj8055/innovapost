@@ -2,4 +2,4 @@ resources:
   - cs-platform-navigator.yaml
   - cs-foundational-services.yaml
   - cs-appconnect-operator.yaml
-namespace: apic-test
+namespace: int
