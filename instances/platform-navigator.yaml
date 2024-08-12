@@ -6,7 +6,7 @@ metadata:
   labels:
     backup.integration.ibm.com/component: platformnavigator     
   annotations:
-    argocd.argoproj.io/sync-wave: "6"   
+    argocd.argoproj.io/sync-wave: "5"   
 spec:
   license:
     accept: true

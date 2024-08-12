@@ -6,7 +6,7 @@ metadata:
   labels:
     backup.integration.ibm.com/component: subscription  
   annotations:
-    argocd.argoproj.io/sync-wave: "1"      
+    argocd.argoproj.io/sync-wave: "2"      
 spec:
   channel: v7.3-sc2
   installPlanApproval: Automatic

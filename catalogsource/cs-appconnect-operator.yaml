@@ -3,6 +3,7 @@ kind: CatalogSource
 metadata:
   name: appconnect-operator-catalogsource
   namespace: openshift-marketplace
+
 spec:
   displayName: ibm-appconnect-12.0.2
   publisher: IBM

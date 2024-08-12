@@ -3,6 +3,8 @@ kind: Subscription
 metadata:
   name: ibm-appconnect
   namespace: ipt
+annotations:
+    argocd.argoproj.io/sync-wave: "4" 
 spec:
   channel: v12.0-sc2
   name: ibm-appconnect

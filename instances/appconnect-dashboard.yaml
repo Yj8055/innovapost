@@ -3,6 +3,8 @@ kind: Dashboard
 metadata:
   name: ipt-ace-dashboard
   namespace: ipt
+annotations:
+    argocd.argoproj.io/sync-wave: "6" 
 spec:
   api:
     enabled: true

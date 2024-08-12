@@ -4,7 +4,9 @@ metadata:
   name: ibm-integration-operatorgroup
   namespace: ipt
   labels:
-    backup.integration.ibm.com/component: operatorgroup        
+    backup.integration.ibm.com/component: operatorgroup       
+  annotations:
+    argocd.argoproj.io/sync-wave: "1"  
 spec:
   targetNamespaces:
   - ipt
